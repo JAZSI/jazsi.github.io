@@ -279,13 +279,6 @@ tr:nth-child(odd) {
     font-size: 40px;
 }
 
-footer {
-    text-align: center;
-    padding: 3px;
-    background-color: rgb(168, 33, 33);
-    color: white;
-}
-
 ::-webkit-scrollbar {
     width: 15px;
 }
@@ -297,4 +290,11 @@ footer {
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(#C8ADF0, #9E74D2);
     border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #C8ADF0;
+    color: white;
 }
