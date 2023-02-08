@@ -1,12 +1,12 @@
 {
-    "fun": [
+    "FUN": [
         {
             "name": "8ball",
-            "description": "Ask the magic 8ball a question."
+            "description": "Ask the magic 8ball a question"
         },
         {
             "name": "coinflip",
-            "description": "Flip a coin."
+            "description": "Flip a coin"
         },
         {
             "name": "dice",
@@ -14,15 +14,15 @@
         },
         {
             "name": "fact",
-            "description": "Get a random fact."
+            "description": "Get a random fact"
         },
         {
             "name": "gayrate",
-            "description": "Gay rate of a user."
+            "description": "Gay rate of a user"
         },
         {
             "name": "hack",
-            "description": "Hack a user."
+            "description": "Hack a user"
         },
         {
             "name": "hyperlink",
@@ -30,41 +30,41 @@
         },
         {
             "name": "mimic",
-            "description": "Mimic a user."
+            "description": "Mimic a user"
         },
         {
             "name": "rps",
-            "description": "play a game of rock, paper and scissors."
+            "description": "play a game of rock, paper and scissors"
         },
         {
             "name": "say",
-            "description": "Make the bot say something."
+            "description": "Make the bot say something"
         },
         {
             "name": "simprate",
-            "description": "Simp rate of a user."
+            "description": "Simp rate of a user"
         },
         {
             "name": "tableflip",
-            "description": "Table flip animation."
+            "description": "Table flip animation"
         }
     ],
-    "information": [
+    "INFORMATION": [
         {
             "name": "botinfo",
-            "description": "Get information about the bot."
+            "description": "Get information about the bot"
         },
         {
             "name": "bug",
-            "description": "Report a bug."
+            "description": "Report a bug"
         },
         {
             "name": "emojiinfo",
-            "description": "Get information about the emoji."
+            "description": "Get information about the emoji"
         },
         {
             "name": "feedback",
-            "description": "Send feedback to the bot owner."
+            "description": "Send feedback to the bot owner"
         },
         {
             "name": "firstmsg",
@@ -72,30 +72,30 @@
         },
         {
             "name": "help",
-            "description": "Get help about commands."
+            "description": "Get help about commands"
         },
         {
             "name": "ping",
-            "description": "Ping the bot."
+            "description": "Ping the bot"
         },
         {
             "name": "roleinfo",
-            "description": "Get info about a role."
+            "description": "Get info about a role"
         },
         {
             "name": "serverinfo",
-            "description": "Get information about the server."
+            "description": "Get information about the server"
         },
         {
             "name": "suggest",
-            "description": "Suggest something."
+            "description": "Suggest something"
         },
         {
             "name": "uptime",
-            "description": "Get the bot's uptime."
+            "description": "Get the bot's uptime"
         }
     ],
-    "moderation": [
+    "MODERATION": [
         {
             "name": "ban",
             "description": "Ban a user from the server."
@@ -113,7 +113,7 @@
             "description": "Unban a user from the server."
         }
     ],
-    "music": [
+    "MUSIC": [
         {
             "name": "autoplay",
             "description": "Toggles autoplay for the current voice channel."
@@ -163,56 +163,30 @@
             "description": "Change the volume of the current song."
         }
     ],
-    "owner": [
+    "OWNER": [
         {
             "name": "delete",
-            "description": "Delete the application commands."
+            "description": "Delete the application commands"
         },
         {
             "name": "deploy",
-            "description": "Deploy the application commands."
+            "description": "Deploy the application commands"
         },
         {
             "name": "eval",
-            "description": "Evaluates code."
+            "description": "Evaluates code"
         },
         {
             "name": "reload",
-            "description": "Reloads all commands."
+            "description": "Reloads all commands"
         },
         {
             "name": "setprefix",
-            "description": "Set the bots prefix in the guild."
+            "description": "Set the bots prefix in the guild"
         },
         {
             "name": "shutdown",
-            "description": "Shutdowns the bot."
-        }
-    ],
-    "search": [
-        {
-            "name": "deviantart",
-            "description": "Searches DeviantArt for a user."
-        },
-        {
-            "name": "github",
-            "description": "Searches GitHub for a user."
-        },
-        {
-            "name": "npm",
-            "description": "Search for npm packages."
-        },
-        {
-            "name": "soundcloud",
-            "description": "Search for a song on SoundCloud."
-        },
-        {
-            "name": "tenor",
-            "description": "Send a gif from tenor."
-        },
-        {
-            "name": "wikipedia",
-            "description": "Searches Wikipedia for a given query."
+            "description": "Shutdown the bot"
         }
     ]
 }
