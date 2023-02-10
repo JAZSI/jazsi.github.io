@@ -11,7 +11,7 @@ body {
     background-attachment: fixed;
 }
 
-.box {
+.main {
     width: 450px;
     background: rgba(0, 0, 0, 0.4);
     padding: 40px;
@@ -22,55 +22,55 @@ body {
     font-family: 'Century Gothic',sans-serif;
 }
 
-.box-img {
+.main-img {
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
 
-.box h1 {
+.main h1 {
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
 }
 
-.box h5 {
+.main h5 {
     font-size: 20px;
     letter-spacing: 3px;
     font-weight: 100;
 }
 
-.box .buttons ul {
+.main .buttons ul {
     margin: 0;
     padding: 0;
 }
 
-.box .about-me li {
+.main .about-me li {
     display: left;
     margin: 6px;
     list-style: none;
     text-align: left;
 }
 
-.box .buttons li {
+.main .buttons li {
     display: inline-block;
     margin: 6px;
     list-style: none;
     
 }
 
-.box .buttons li a {
+.main .buttons li a {
     color: white;
     text-decoration: none;
     font-size: 60px;
     transition: all ease-in-out 250ms;
 }
 
-.box .buttons li a:hover {
+.main .buttons li a:hover {
     color: #b9b9b9;
 }
 
-.back-video {
+.main .back-video {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -78,14 +78,14 @@ body {
 }
 
 @media (min-aspect-ratio: 16/9) {
-    .back-video {
+    .main .back-video {
         width: 100%;
         height: auto;
     }
 }
 
 @media (max-aspect-ratio: 16/9) {
-    .back-video {
+    .main .back-video {
         width: auto;
         height: 100%;
     }
