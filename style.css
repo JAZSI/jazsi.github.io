@@ -87,10 +87,22 @@ body {
 
 .jaszi {
     display: block;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 20%;
 }
 
 .jaszi p, h1, h2, li{
     color: azure;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FCF7D0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#FEC2E2, #AAF2FF);
+    border-radius: 8px;
 }
