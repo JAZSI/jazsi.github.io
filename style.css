@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(223, 171, 59);
+    background-color: black;
 }
 
 .box {
@@ -83,4 +83,14 @@ body {
         width: auto;
         height: 100%;
     }
+}
+
+.jaszi {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.jaszi p, h1, h2, li{
+    color: azure;
 }
