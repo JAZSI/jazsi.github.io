@@ -172,3 +172,10 @@ body {
     background: linear-gradient(#FEC2E2, #AAF2FF);
     border-radius: 8px;
 }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #C8ADF0;
+    color: white;
+}
