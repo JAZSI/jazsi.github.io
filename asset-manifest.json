@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa685f98.css",
-    "main.js": "/static/js/main.6b34207b.js",
+    "main.css": "/static/css/main.59d85203.css",
+    "main.js": "/static/js/main.48011b5d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Kabrio-Soft-Bold.ttf": "/static/media/Kabrio-Soft-Bold.a79a22e7f7cd1f764cb9.ttf",
     "static/media/Nunito.ttf": "/static/media/Nunito.4a3eef3e0a61b7eb3eda.ttf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
     "static/media/PlayfairDisplaySC-Regular.ttf": "/static/media/PlayfairDisplaySC-Regular.8c8d2f742833cf9cb110.ttf",
+    "static/media/CoolveticaRG Regular.ttf": "/static/media/CoolveticaRG Regular.d9b15102a8e8ddae74c2.ttf",
     "static/media/J.png": "/static/media/J.d03416cf1cf7aa2575db.png",
     "static/media/Jaszi.png": "/static/media/Jaszi.e78926e12ba24175970c.png",
+    "static/media/Century Gothic Bold.ttf": "/static/media/Century Gothic Bold.d2dcbbef07d36bcfae6b.ttf",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.fa685f98.css.map": "/static/css/main.fa685f98.css.map",
-    "main.6b34207b.js.map": "/static/js/main.6b34207b.js.map",
+    "main.59d85203.css.map": "/static/css/main.59d85203.css.map",
+    "main.48011b5d.js.map": "/static/js/main.48011b5d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa685f98.css",
-    "static/js/main.6b34207b.js"
+    "static/css/main.59d85203.css",
+    "static/js/main.48011b5d.js"
   ]
 }
