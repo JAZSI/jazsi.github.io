@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ce6bf4e.css",
-    "main.js": "/static/js/main.6629125f.js",
+    "main.css": "/static/css/main.f58a2dfa.css",
+    "main.js": "/static/js/main.8b3e656d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Kabrio-Soft-Bold.ttf": "/static/media/Kabrio-Soft-Bold.a79a22e7f7cd1f764cb9.ttf",
     "static/media/Nunito.ttf": "/static/media/Nunito.4a3eef3e0a61b7eb3eda.ttf",
@@ -15,12 +15,12 @@
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/NoImage.png": "/static/media/NoImage.dcfbdb616a38ca3a1e94.png",
     "index.html": "/index.html",
-    "main.3ce6bf4e.css.map": "/static/css/main.3ce6bf4e.css.map",
-    "main.6629125f.js.map": "/static/js/main.6629125f.js.map",
+    "main.f58a2dfa.css.map": "/static/css/main.f58a2dfa.css.map",
+    "main.8b3e656d.js.map": "/static/js/main.8b3e656d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ce6bf4e.css",
-    "static/js/main.6629125f.js"
+    "static/css/main.f58a2dfa.css",
+    "static/js/main.8b3e656d.js"
   ]
 }
