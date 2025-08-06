@@ -1,24 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Basic Meta Tags -->
     <meta charset="UTF-8" />
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/79008835" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jaszi</title>
-    <meta name="description" content="Portfolio Website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Jaszi - Portfolio Website</title>
+    <meta name="title" content="Jaszi" />
+    <meta name="description" content="Full-stack developer specializing in modern web technologies, software application, and mobile development." />
+    <meta name="keywords" content="portfolio, developer, software engineer, web development, React, TypeScript, JavaScript, frontend, backend, fullstack" />
     <meta name="author" content="JC Senoto" />
-
-    <meta property="og:title" content="Jaszi" />
-    <meta property="og:description" content="Portfolio Website" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://jazsi.github.io" />
+    
+    <!-- Favicon and App Icons -->
+    <link rel="icon" href="/logo.png" />
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="/logo.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/logo.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/logo.png" />
+    <link rel="mask-icon" href="/logo.png" color="#000000" /> -->
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/79008835" />
-
+    <meta property="og:url" content="https://jazsi.github.io" />
+    <meta property="og:title" content="Jaszi" />
+    <meta property="og:description" content="Full-stack developer specializing in modern web technologies, software application, and mobile development." />
+    <meta property="og:image" content="/background.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Jaszi" />
+    <meta property="og:site_name" content="Jaszi" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://jazsi.github.io" />
     <meta name="twitter:title" content="Jaszi" />
-    <meta name="twitter:description" content="Portfolio Website" />
-    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/79008835" />
-    <script type="module" crossorigin src="/assets/index-DtmcVJR_.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Bnx4E7Yb.css">
+    <meta name="twitter:description" content="Full-stack developer specializing in modern web technologies, software application, and mobile development." />
+    <meta name="twitter:image" content="/background.png" />
+    <meta name="twitter:image:alt" content="Jaszi" />
+    
+    <!-- LinkedIn -->
+    <meta property="og:image:secure_url" content="/background.png" />
+    
+    <!-- Additional Social Media -->
+    <meta property="og:image:type" content="image/png" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="application-name" content="Jaszi" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Jaszi" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https:;" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    
+    <!-- Performance and Caching -->
+    <meta http-equiv="Cache-Control" content="public, max-age=31536000" />
+    <meta http-equiv="Expires" content="31536000" />
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- DNS Prefetch for performance -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "JC Senoto",
+      "alternateName": "Jaszi",
+      "url": "https://jazsi.github.io",
+      "image": "/logo.png",
+      "sameAs": [
+        "https://github.com/JAZSI",
+        "https://www.linkedin.com/in/john-christian-senoto",
+        "https://jaszi.itch.io/",
+        "https://huggingface.co/Jaszii"
+      ],
+      "jobTitle": "Full-Stack Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance Developer"
+      },
+      "description": "Full-stack developer specializing in modern web technologies, software application, and mobile development."
+    }
+    </script>
+    
+    <!-- Additional Meta for Accessibility -->
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileImage" content="/logo.png" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <script type="module" crossorigin src="/assets/index-PNUw1FUP.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-uR0PUNUk.css">
   </head>
 
   <body>
