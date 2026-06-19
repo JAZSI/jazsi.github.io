@@ -70,8 +70,10 @@
   </head>
   <body>
     <div id="root">
-      <!-- Pre-rendered content snapshot (build-injected, replaced by the app on load) -->
-      <div style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">
+      <!-- Pre-rendered content snapshot (build-injected, replaced by the app on load).
+           display:none keeps it out of paint/layout/focus so it never flashes; crawlers
+           read the raw HTML regardless of CSS, so it stays fully indexable. -->
+      <div hidden style="display: none">
         <!--seo:start-->
       <header>
         <h1>John Christian R. Senoto — Creative Technologist &amp; Full-Stack Developer</h1>
